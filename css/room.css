@@ -1,0 +1,84 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #b5d7ff;
+}
+
+ul {
+    list-style: none;
+}
+
+.nav {
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    margin-left: -350px;
+    width: 700px;
+    height: 60px;
+    font-size: large;
+    color: rgb(255, 255, 255);
+    box-shadow: -5px 5px 0px #0000001b;
+    background-image: linear-gradient(to right, #6eb1fe, #c2ddfd);
+}
+
+.first-content {
+    width: 80px;
+    line-height: 60px;
+    text-align: center;
+    float: left;
+    margin-left: 20px;
+    padding: 0px 10px;
+}
+
+.first-content-1 {
+    width: 80px;
+    line-height: 60px;
+    text-align: center;
+    float: left;
+    padding: 0px 10px;
+    background-color: #c2ddfd73;
+    cursor: pointer;
+}
+
+.second-content {
+    margin-top: 1px;
+    width: 80px;
+    line-height: 60px;
+    background-image: linear-gradient(to right, #2d8fff62, #c2ddfd7b);
+    text-align: center;
+    padding: 0 10px;
+    margin-left: -10px;
+}
+
+.first-content:hover {
+    background-color: #c2ddfd73;
+    /* 鼠标 */
+    cursor: pointer;
+    /* 阴影，使导航栏有层次感 */
+    box-shadow: -5px 5px 0 rgba(25, 33, 42, 0.2);
+    /* 执行时间 */
+    transition: 0.3s;
+}
+
+.second-content {
+    display: none;
+}
+
+.first-content:hover .second-content {
+    display: block;
+}
+
+.second-content:hover {
+    background-color: #85beff;
+}
+
+.navhref{
+    text-decoration: none;
+}
+
+.navhref:hover,.navhref:visited{
+    color: rgb(255, 255, 255);
+}
